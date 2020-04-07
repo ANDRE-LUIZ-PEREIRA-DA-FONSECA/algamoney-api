@@ -17,19 +17,22 @@ public class LancamentoFilter {
 	public String getDescricao() {
 		return descricao;
 	}
-	public void setDescricao(String descricao) {
+		public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
 
 	public LocalDate getDataVencimentoDe() {
 		return dataVencimentoDe;
 	}
+	
 	public void setDataVencimentoDe(LocalDate dataVencimentoDe) {
 		this.dataVencimentoDe = dataVencimentoDe;
 	}
+	
 	public LocalDate getDataVencimentoAte() {
 		return dataVencimentoAte;
 	}
+	
 	public void setDataVencimentoAte(LocalDate dataVencimentoAte) {
 		this.dataVencimentoAte = dataVencimentoAte;
 	}
